@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import Navbar from './components/navbar'
+
 import Landingpage from './components/landingpage'
 import About from './components/about'
 import Marquee from './components/Marquee'
@@ -10,6 +10,7 @@ import Cards from './components/Cards'
 import Footer from './components/footer'
 import LocomotiveScroll from 'locomotive-scroll';
 import 'locomotive-scroll/locomotive-scroll.css'
+import Navbar from './components/Navbar'
 const App = () => {
   const scrollRef = useRef(null);
 
