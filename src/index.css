@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'neumontreal';
+    src: url('../fonts/neuMontreal/NeueMontreal-Bold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

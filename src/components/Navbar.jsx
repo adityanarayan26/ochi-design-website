@@ -24,7 +24,7 @@ const Navbar = () => {
                     " Insights",
                     "Contact"
                 ].map((items, index) => (
-                    <a href="" className={`capitalize   p-[10px]  font-["Neue_Montreal"] text-xl ${index === 4 && "ml-[26rem] :"}`}>{items}</a>
+                    <a href="" className={`capitalize   p-[10px]  text-neumontreal text-xl ${index === 4 && "ml-[26rem] :"}`}>{items}</a>
                 ))}x
 
             </div>
