@@ -13,8 +13,8 @@ const Landingpage = () => {
                 {["we create", "eye-opening", "presentation"].map((item, index) => {
                     return (
                         <div className='masker'>
-                            <div className='w-fit flex '>
-                                {index === 1 && (<motion.div initial={{ width: 0 }} animate={{ width: "8.5vw" }} transition={{ ease: [0.76, 0, 0.24, 1], duration: .9, delay: .3 }} className='w-[8vw]  h-[5vw]  relative -top-[.89vw] rounded  bg-cover  bg-[url("https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg")]'></motion.div>)}
+                            <div className='w-fit flex items-center'>
+                                {index === 1 && (<motion.div initial={{ width: 0 }} animate={{ width: "8.5vw" }} transition={{ ease: [0.76, 0, 0.24, 1], duration: .9, delay: .3 }} className='w-[8vw]  h-[5vw] rounded  bg-cover  bg-center bg-[url("/ochi.jpg")]'></motion.div>)}
                                 <h1 href="" className={'  font-["Founders_Grotesk"] text-[7.5vw] font-[600] text-[#212121] tracking-tighter leading-[6vw] uppercase'}>{item}</h1>
                             </div>
                         </div>
